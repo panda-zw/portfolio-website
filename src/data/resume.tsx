@@ -30,8 +30,6 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    // email: "hello@panashemapika.com",
-    // tel: "+123456789",
     social: {
       GitHub: {
         name: "GitHub",
