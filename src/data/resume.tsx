@@ -29,6 +29,8 @@ export const DATA = {
     "Convex",
     "Redis",
     "Docker",
+    "Laravel",
+    "FastAPI",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
