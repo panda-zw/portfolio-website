@@ -1,5 +1,10 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import {
+  FolderKanban,
+  HomeIcon,
+  Laptop2Icon,
+  NotebookIcon,
+} from "lucide-react";
 
 export const DATA = {
   name: "Panashe Mapika",
@@ -27,7 +32,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/projects", icon: FolderKanban, label: "Projects" },
   ],
   contact: {
     social: {
@@ -73,7 +78,7 @@ export const DATA = {
       start: "October 2021",
       end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Led the end-to-end development of enterprise web applications, ensuring successful deployment and seamless user experience across platforms. Collaborated with cross-functional teams to implement features like investment management tools and document manipulation, driving innovation and teamwork. Streamlined workflows and automated processes, reducing development time by 20% and boosting team productivity.",
     },
     {
       company: "Digitalkrapht",
@@ -85,7 +90,7 @@ export const DATA = {
       start: "January 2020",
       end: "September 2021",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Orchestrated large-scale software deployments from design to feature implementation, ensuring seamless integration. Led prototyping and testing efforts, delivering high-quality code on time. Enhanced system performance by optimizing and refactoring code, resulting in a 25% increase in processing speed.",
     },
     {
       company: "African Century Limited",
@@ -97,7 +102,7 @@ export const DATA = {
       start: "April 2019",
       end: "January 2020",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Coordinated the development and deployment of software updates and bug fixes, achieving timely and successful releases. Implemented automation systems that boosted process efficiency by 70% and reduced manual workload. Collaborated with stakeholders to align development with business goals, ensuring project success and high stakeholder satisfaction.",
     },
     {
       company: "23rd Century Limited",
@@ -109,7 +114,7 @@ export const DATA = {
       start: "September 2018",
       end: "March 2019",
       description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+        "Designed and maintained reusable code for distributed cloud environments, ensuring system reliability and scalability. Collaborated with a diverse team to implement effective solutions while integrating new technologies to enhance project outcomes. Optimized code to improve system stability, achieving a 15% increase in uptime by refactoring legacy code and reducing downtime incidents.",
     },
     {
       company: "Ministry of Information Communication Technology",
@@ -121,7 +126,7 @@ export const DATA = {
       start: "January 2018",
       end: "April 2018",
       description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
+        "Contributed to business acquisition by designing customized solutions for proposals, enhancing client engagement. Gained hands-on experience across the software development life cycle, building a solid foundation in development practices. Collaborated with senior developers to troubleshoot technical issues, reducing resolution time by 30% through efficient debugging and continuous learning.",
     },
   ],
   education: [
@@ -246,7 +251,7 @@ export const DATA = {
         "FastAPI",
         "Python",
         "Docker",
-        "TailwindCSS",
+        "Bootstrap",
       ],
       links: [
         {
@@ -268,6 +273,88 @@ export const DATA = {
       image: "",
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+  ],
+  other_projects: [
+    {
+      title: "Oono Events",
+      dates: "January 2024 - Present",
+      location: "",
+      description:
+        "Developed an event management solution to streamline event organization with features like offline ticketing, addressing payment gateway limitations in regions with infrastructure challenges.",
+      image: "/project-logo.svg",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://oono.events",
+        },
+      ],
+    },
+    {
+      title: "Oono Cloud",
+      dates: "May 2024 - Present",
+      location: "",
+      description:
+        "A platform designed for easy file organization and access, featuring real-time updates and secure access from anywhere. Simplifies digital workflows for users across various environments.",
+      image: "/project-logo.svg",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://oono.cloud",
+        },
+      ],
+    },
+    {
+      title: "Oono Chat",
+      dates: "July 2024 - July 2024",
+      location: "",
+      description:
+        "A secure chat application with end-to-end encryption, real-time updates, and support for audio and video calls, enabling efficient and protected communication",
+      image: "/project-logo.svg",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://oono.chat",
+        },
+      ],
+    },
+    {
+      title: "URL Shortener",
+      dates: "July 2024 - July 2024",
+      location: "",
+      description:
+        "Developed a URL shortener that allows users to create custom short links for easy sharing and tracking of links. This was mostly for personal use and for my own projects. This only took a few hours to build and deploy.",
+      image: "/project-logo.svg",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://url.shortie.one",
+        },
+      ],
+    },
+    {
+      title: "Kidsalert",
+      dates: "April 2023 - March 2024",
+      location: "",
+      description:
+        "A platform that empowers communities to monitor and protect children using facial recognition and rapid response to risks involving missing or vulnerable kids, ensuring their safety through collaborative efforts",
+      image: "/project-logo.svg",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://kidsalert.co.zw",
+        },
+        {
+          title: "Android",
+          icon: <Icons.android className="h-4 w-4" />,
+          href: "https://shortie.one/FDJdnx",
+        },
+      ],
     },
   ],
   hackathons: [
