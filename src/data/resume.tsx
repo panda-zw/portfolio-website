@@ -185,7 +185,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "https://oono.eu-central-1.linodeobjects.com/portfolio/oono-events-video.mp4",
     },
     {
       title: "Oono Cloud",
@@ -210,7 +210,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "https://oono.eu-central-1.linodeobjects.com/portfolio/oono-cloud-video.mp4",
     },
     {
       title: "Oono Chat",
@@ -236,7 +236,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "https://oono.eu-central-1.linodeobjects.com/portfolio/oono-chat-video.mp4",
     },
     {
       title: "Kidsalert",
@@ -274,7 +274,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "https://oono.eu-central-1.linodeobjects.com/portfolio/kidsalert-video.mp4",
     },
   ],
   other_projects: [
