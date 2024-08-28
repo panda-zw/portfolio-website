@@ -32,7 +32,11 @@ export default function Page() {
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} className="object-cover" />
+                <AvatarImage
+                  alt={DATA.name}
+                  src={DATA.avatarUrl}
+                  className="object-cover"
+                />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
@@ -123,9 +127,9 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  From the basics to the borderline insane, I&apos;ve worked on
+                  it all. Here are a few projects that keep me up at night (in a
+                  good way).
                 </p>
               </div>
             </div>
