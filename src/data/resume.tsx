@@ -242,32 +242,6 @@ export const DATA = {
       video: "https://oono.eu-central-1.linodeobjects.com/portfolio/oono-cloud-video.mp4",
     },
     {
-      title: "Oono Chat",
-      href: "https://oono.chat",
-      dates: "July 2024 - July 2024",
-      active: true,
-      description:
-        "A secure chat application with end-to-end encryption, real-time updates, and support for audio and video calls, enabling efficient and protected communication",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "Convex",
-        "Zegocloud",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Stripe",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://oono.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://oono.eu-central-1.linodeobjects.com/portfolio/oono-chat-video.mp4",
-    },
-    {
       title: "Kidsalert",
       href: "https://kidsalert.co.zw",
       dates: "April 2023 - March 2024",
@@ -307,6 +281,21 @@ export const DATA = {
     },
   ],
   other_projects: [
+    {
+      title: "FixMyCV",
+      dates: "January 2025",
+      location: "",
+      description:
+        "Ai-Powered CV and Cover letter tailoring platform that helps job seekers create a professional CV and Cover letter in minutes. The platform uses AI to analyze job descriptions and tailor CVs to match the job requirements.",
+      image: "/project-logo.svg",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://fixmycv.app",
+        },
+      ],
+    },
     {
       title: "Oono Events",
       dates: "January 2024 - Present",
