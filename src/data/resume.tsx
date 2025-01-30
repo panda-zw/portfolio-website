@@ -159,6 +159,35 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "FixMyCV",
+      href: "https://fixmycv.app",
+      dates: "January 2025",
+      active: true,
+      description:
+        "Ai-Powered CV and Cover letter tailoring platform that helps job seekers create a professional CV and Cover letter in minutes. The platform uses AI to analyze job descriptions and tailor CVs to match the job requirements.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Postgres",
+        "Websockets",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+        "FastAPI",
+        "Python",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://fixmycv.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://oono.eu-central-1.linodeobjects.com/fixmycv.app/FixMyCV - AI-Powered CV and Cover Letter Tailoring.mp4",
+    },
+    {
       title: "Oono Events",
       href: "https://oono.events",
       dates: "January 2024 - Present",
