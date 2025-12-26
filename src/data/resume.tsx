@@ -9,11 +9,11 @@ import {
 export const DATA = {
   name: "Panashe Mapika",
   initials: "PM",
-  url: "https://panashe.me",
+  url: "https://panashemapika.co.zw",
   description:
     "I'm a software engineer with a passion for building products that solve real-world problems and I like to have fun while doing it.",
   summary:
-    "Innovative Software Engineer with 6 years of experience, adept at thriving in dynamic and challenging environments to deliver cutting-edge software solutions. Skilled in designing, building, and developing software across various industries, with a strong focus on efficiency and precision. A collaborative team player dedicated to driving projects to successful completion, ensuring both speed and accuracy in achieving objectives.",
+    "Innovative Software Engineer with 7 years of experience, adept at thriving in dynamic and challenging environments to deliver cutting-edge software solutions. Skilled in designing, building, and developing software across various industries, with a strong focus on efficiency and precision. A collaborative team player dedicated to driving projects to successful completion, ensuring both speed and accuracy in achieving objectives.",
   avatarUrl: "/me.webp",
   skills: [
     "React",
@@ -40,21 +40,21 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://shortie.one/ZFVzdp",
+        url: "https://github.com/panda-zw",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://shortie.one/9BkgMx",
+        url: "https://www.linkedin.com/in/panashe-mapika/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://shortie.one/Totdcs",
+        url: "https://x.com/panashemapika?s=21",
         icon: Icons.x,
 
         navbar: true,
@@ -71,6 +71,18 @@ export const DATA = {
 
   work: [
     {
+      company: "ICL Digital",
+      href: "https://icldigital.com",
+      badges: [],
+      location: "Remote",
+      title: "Software Engineer",
+      logoUrl: "/icldigital.svg",
+      start: "April 2025",
+      end: "Present",
+      description:
+        "Developed and maintained internal and client-facing software systems, contributing to backend services and user interfaces. Implemented features, fixed defects, and improved performance and reliability while working closely with other developers and stakeholders to meet functional requirements.",
+    },
+    {
       company: "Staxo Group",
       href: "https://staxo.com",
       badges: [],
@@ -78,7 +90,7 @@ export const DATA = {
       title: "Software Engineer",
       logoUrl: "/staxo-logo.webp",
       start: "October 2021",
-      end: "Present",
+      end: "March 2025",
       description:
         "Led the end-to-end development of enterprise web applications, ensuring successful deployment and seamless user experience across platforms. Collaborated with cross-functional teams to implement features like investment management tools and document manipulation, driving innovation and teamwork. Streamlined workflows and automated processes, reducing development time by 20% and boosting team productivity.",
     },
@@ -159,6 +171,78 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Yosub App",
+      href: "https://yosub.app",
+      dates: "November 2025 - Present",
+      active: true,
+      description:
+        "A subscription management mobile app that simplifies tracking and managing all your subscriptions in one place, helping you stay organized and avoid unexpected charges.",
+      technologies: [
+        "React",
+        "Typescript",
+        "Supabase",
+        "React Native",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://yosub.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Android",
+          href: "https://play.google.com/store/apps/details?id=app.yosub",
+          icon: <Icons.android className="size-3" />,
+        },
+        {
+          type: "iOS",
+          href: "https://apps.apple.com/us/app/yosub/id6756374410",
+          icon: <Icons.apple className="size-3" />,
+        }
+      ],
+      image: "",
+      video: "https://oono.eu-central-1.linodeobjects.com/portfolio/yosub-video.mp4",
+    },
+    {
+      title: "Soko Market",
+      href: "https://sokomarket.app",
+      dates: "September 2025 - Present",
+      active: true,
+      description: 
+        "Zimbabwe's premier online marketplace where communities come together to buy, sell, and discover unique items through auctions and free listings",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "MySQL",
+        "NestJS",
+        "React Native",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://sokomarket.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "https://soko.co.zw",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Android",
+          href: "https://play.google.com/store/apps/details?id=com.panashemapika.soko",
+          icon: <Icons.android className="size-3" />,
+        },
+        {
+          type: "iOS",
+          href: "https://apps.apple.com/us/app/soko-auctions-free-finds/id6752624441",
+          icon: <Icons.apple className="size-3" />,
+        }
+      ],
+      image: "",
+      video: "https://oono.eu-central-1.linodeobjects.com/portfolio%2Fsoko-video.mp4",
+    },
+    {
       title: "FixMyCV",
       href: "https://fixmycv.app",
       dates: "January 2025",
@@ -190,7 +274,7 @@ export const DATA = {
     {
       title: "Oono Events",
       href: "https://oono.events",
-      dates: "January 2024 - Present",
+      dates: "January 2024 - June 2024",
       active: true,
       description:
         "Developed an event management solution to streamline event organization with features like offline ticketing, addressing payment gateway limitations in regions with infrastructure challenges.",
@@ -219,7 +303,7 @@ export const DATA = {
     {
       title: "Oono Cloud",
       href: "https://oono.cloud",
-      dates: "May 2024 - Present",
+      dates: "May 2024 - March 2025",
       active: true,
       description:
         "A platform designed for easy file organization and access, featuring real-time updates and secure access from anywhere. Simplifies digital workflows for users across various environments.",
@@ -372,8 +456,13 @@ export const DATA = {
         {
           title: "Android",
           icon: <Icons.android className="h-4 w-4" />,
-          href: "https://shortie.one/FDJdnx",
+          href: "https://play.google.com/store/apps/details?id=com.digitalkrapht.kidsalert&pcampaignid=web_share",
         },
+        {
+          title: "iOS",
+          icon: <Icons.apple className="h-4 w-4" />,
+          href: "https://apps.apple.com/zw/app/kidsalert/id6742197544",
+        }
       ],
     },
   ],
