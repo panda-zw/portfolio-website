@@ -366,6 +366,61 @@ export const DATA = {
   ],
   other_projects: [
     {
+      title: "Yosub App",
+      dates: "November 2025",
+      location: "",
+      description:
+        "A subscription management mobile app that simplifies tracking and managing all your subscriptions in one place, helping you stay organized and avoid unexpected charges.",
+      image: "/project-logo.svg",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://yosub.app",
+        },
+        {
+          title: "Android",
+          icon: <Icons.android className="h-4 w-4" />,
+          href: "https://play.google.com/store/apps/details?id=app.yosub",
+        },
+        {
+          title: "iOS",
+          icon: <Icons.apple className="h-4 w-4" />,
+          href: "https://apps.apple.com/us/app/yosub/id6756374410",
+        }
+      ],
+    },
+    {
+      title: "Soko Market",
+      dates: "September 2025",
+      location: "",
+      description:
+        "Zimbabwe's premier online marketplace where communities come together to buy, sell, and discover unique items through auctions and free listings",
+      image: "/project-logo.svg",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://sokomarket.app",
+        },
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://soko.co.zw",
+        },
+        {
+          title: "Android",
+          icon: <Icons.android className="h-4 w-4" />,
+          href: "https://play.google.com/store/apps/details?id=com.panashemapika.soko",
+        },
+        {
+          title: "iOS",
+          icon: <Icons.apple className="h-4 w-4" />,
+          href: "https://apps.apple.com/us/app/soko-auctions-free-finds/id6752624441",
+        }
+      ],
+    },
+    {
       title: "FixMyCV",
       dates: "January 2025",
       location: "",
