@@ -76,7 +76,7 @@ export const DATA = {
       href: "https://icldigital.com",
       badges: [],
       location: "Remote",
-      title: "Software Engineer",
+      title: "Software Developer",
       logoUrl: "/icldigital.svg",
       start: "April 2025",
       end: "Present",
