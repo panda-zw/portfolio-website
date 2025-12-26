@@ -31,6 +31,7 @@ export const DATA = {
     "Docker",
     "Laravel",
     "FastAPI",
+    "NestJS",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -300,69 +301,69 @@ export const DATA = {
       video:
         "https://oono.eu-central-1.linodeobjects.com/portfolio/oono-events-video.mp4",
     },
-    {
-      title: "Oono Cloud",
-      href: "https://app.oono.cloud",
-      dates: "May 2024 - March 2025",
-      active: true,
-      description:
-        "A platform designed for easy file organization and access, featuring real-time updates and secure access from anywhere. Simplifies digital workflows for users across various environments.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "Convex",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://app.oono.cloud",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://oono.eu-central-1.linodeobjects.com/portfolio/oono-cloud-video.mp4",
-    },
-    {
-      title: "Kidsalert",
-      href: "https://kidsalert.co.zw",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "A platform that empowers communities to monitor and protect children using facial recognition and rapid response to risks involving missing or vulnerable kids, ensuring their safety through collaborative efforts",
-      technologies: [
-        "React",
-        "React Native",
-        "Typescript",
-        "MySQL",
-        "FastAPI",
-        "Python",
-        "Docker",
-        "Bootstrap",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://kidsalert.co.zw",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Android",
-          href: "https://play.google.com/store/apps/details?id=com.digitalkrapht.kidsalert&pcampaignid=web_share",
-          icon: <Icons.android className="size-3" />,
-        },
-        {
-          type: "iOS",
-          href: "https://apps.apple.com/zw/app/kidsalert/id6742197544",
-          icon: <Icons.apple className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://oono.eu-central-1.linodeobjects.com/portfolio/kidsalert-video.mp4",
-    },
+    // {
+    //   title: "Oono Cloud",
+    //   href: "https://app.oono.cloud",
+    //   dates: "May 2024 - March 2025",
+    //   active: true,
+    //   description:
+    //     "A platform designed for easy file organization and access, featuring real-time updates and secure access from anywhere. Simplifies digital workflows for users across various environments.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "Convex",
+    //     "TailwindCSS",
+    //     "Stripe",
+    //     "Shadcn UI",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://app.oono.cloud",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "https://oono.eu-central-1.linodeobjects.com/portfolio/oono-cloud-video.mp4",
+    // },
+    // {
+    //   title: "Kidsalert",
+    //   href: "https://kidsalert.co.zw",
+    //   dates: "April 2023 - March 2024",
+    //   active: true,
+    //   description:
+    //     "A platform that empowers communities to monitor and protect children using facial recognition and rapid response to risks involving missing or vulnerable kids, ensuring their safety through collaborative efforts",
+    //   technologies: [
+    //     "React",
+    //     "React Native",
+    //     "Typescript",
+    //     "MySQL",
+    //     "FastAPI",
+    //     "Python",
+    //     "Docker",
+    //     "Bootstrap",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://kidsalert.co.zw",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Android",
+    //       href: "https://play.google.com/store/apps/details?id=com.digitalkrapht.kidsalert&pcampaignid=web_share",
+    //       icon: <Icons.android className="size-3" />,
+    //     },
+    //     {
+    //       type: "iOS",
+    //       href: "https://apps.apple.com/zw/app/kidsalert/id6742197544",
+    //       icon: <Icons.apple className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video:
+    //     "https://oono.eu-central-1.linodeobjects.com/portfolio/kidsalert-video.mp4",
+    // },
   ],
   other_projects: [
     {
