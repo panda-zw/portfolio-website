@@ -273,7 +273,7 @@ export const DATA = {
     },
     {
       title: "Oono Events",
-      href: "https://oono.events",
+      href: "https://oono.co.zw",
       dates: "January 2024 - June 2024",
       active: true,
       description:
@@ -292,7 +292,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://oono.events",
+          href: "https://oono.co.zw",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -302,7 +302,7 @@ export const DATA = {
     },
     {
       title: "Oono Cloud",
-      href: "https://oono.cloud",
+      href: "https://app.oono.cloud",
       dates: "May 2024 - March 2025",
       active: true,
       description:
@@ -318,7 +318,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://oono.cloud",
+          href: "https://app.oono.cloud",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -350,12 +350,12 @@ export const DATA = {
         },
         {
           type: "Android",
-          href: "https://shortie.one/FDJdnx",
+          href: "https://play.google.com/store/apps/details?id=com.digitalkrapht.kidsalert&pcampaignid=web_share",
           icon: <Icons.android className="size-3" />,
         },
         {
           type: "iOS",
-          href: "#",
+          href: "https://apps.apple.com/zw/app/kidsalert/id6742197544",
           icon: <Icons.apple className="size-3" />,
         },
       ],
@@ -391,7 +391,7 @@ export const DATA = {
         {
           title: "Website",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://oono.events",
+          href: "https://oono.co.zw",
         },
       ],
     },
@@ -406,7 +406,7 @@ export const DATA = {
         {
           title: "Website",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://oono.cloud",
+          href: "https://app.oono.cloud",
         },
       ],
     },
@@ -421,7 +421,7 @@ export const DATA = {
         {
           title: "Website",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://oono.chat",
+          href: "https://oono-chat.vercel.app/chats",
         },
       ],
     },
@@ -436,7 +436,7 @@ export const DATA = {
         {
           title: "Website",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://url.shortie.one",
+          href: "https://shortie-six.vercel.app/",
         },
       ],
     },
